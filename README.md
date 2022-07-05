@@ -3,14 +3,14 @@
 
 ## Sommaire 
 
-* Utilisation du repot
+* Utilisation du repos
 * Consignes
 * Structure
 * Tips
 * Ressources
 
 
-## Utilisation du repot 
+## Utilisation du repos 
 
 Utilisation de LaTex pour convertir en pdf par la suite.
 
@@ -38,18 +38,18 @@ L’introduction (Obligatoire) : Présenter les objectifs de ce dossier de veill
 
 Démarche méthodologique (Obligatoire) :
 
-Expliquer comment avez-vous procédé à l'élaboration de votre plan de veille, accomapgné de :
+Expliquer comment avez-vous procédé à l'élaboration de votre plan de veille, accompagné de :
 
 * Une liste des mots-clés définis à partir du sujet choisi en français et/ou en anglais
 * Un tableau des ressources mobilisées : Nom de la source / d'outil, Type, Lien,  Auteur (à omettre en fonction de la source / d''outil), Fréquence de veille et Mots-clés associés
 
 Corps du dossier (Obligatoire) :
 
-Structurer vos résultats issus des 3 axes de veille concurentielle , technique / technologique et commerciale locale, nationale et internationale (Cf. p.6). Le développement du plan peut s'appuyer sur les repères ci-dessous :
+Structurer vos résultats issus des 3 axes de veille concurrentielle, technique / technologique et commerciale locale, nationale et internationale (Cf. p.6). Le développement du plan peut s'appuyer sur les repères ci-dessous :
 
 * Définitions, Historique, l’importance du sujet choisi dans la société actuelle ;
-* Etat du marché, les principaux acteurs et parties prenantes impliqués ;
-* Les ressources technologiques identifiées, les dernières tendances en terme de l'innovation, les évolutions potentielles ;
+* État du marché, les principaux acteurs et parties prenantes impliqués ;
+* Les ressources technologiques identifiées, les dernières tendances en termes de l'innovation, les évolutions potentielles ;
 * Les enjeux économiques, stratégiques et/ou les controverses.
 
 La conclusion (Obligatoire) : Analyse réflexive sur votre démarche de veille et prise du recul des connaissances acquises.
