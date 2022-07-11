@@ -1,28 +1,116 @@
+\documentclass[11pt,a4paper,oneside]{book}
 \usepackage{fontspec}
-\usepackage{comment}
-\setmainfont{Calibri}
-\renewcommand{\baselinestretch}{1.5}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage{color}
+\usepackage[table]{xcolor} %couleur dans un tableau
+\usepackage{multirow} %fusion des lignes d'un tableau
+\usepackage{tabularx}
+\usepackage{pdflscape}
 
+
+% ceci est un commentaire
 \author{Hugo CELDRAN}
 \title{Vieille et Recherche}
 \title{Expert Cloud, Sécurité et Infrastructure}
 \date{2022}
-\maketitle
 
-\tableofcontents
+\setmainfont{Calibri-Regular.ttf}[Path=./calibri/,
+BoldFont       = Calibri-Bold.TTF,
+BoldItalicFont = Calibri-Bold-Italic.ttf,
+ItalicFont     = Calibri-Italic.ttf]
+
+\renewcommand{\baselinestretch}{1.5}
 
 \begin{document}
 
-    \documentclass[10pt,a4paper]{report}
+\maketitle
+\tableofcontents
 
-    \chapter{Introduction}\label{ch:introduction}
 
-    \chapter{Démarche méthodologique}\label{ch:demarche-methodology}
+\chapter{Introduction}
+% dire que je fais que de la veille cible, veille radar twitter
 
-    \chapter{Corps du dossier}\label{ch:corps-du-dossier}
+Dans le cadre de mon alternance, j'ai pris la décision de changer d'entreprise pour réaliser mon master.
+En effet, ce choix était motivé par la volonté de découvrir un nouveau métier et les nouvelles missions qui l'accompagne. \\
+J'ai découvert alors le métier d'Administrateur Système dans une culture DevOps.
+Le DevOps est un mouvement en ingénierie informatique et une partique technique qui veut unifier le développement logiciel (Dev) et l'administration des infrastructures informatiques (ops).
+Le problème avec cette approche c'est qu'il n'y a pas d'aspect sécurité des systèmes et des logiciels. Donc nous avions des processus de développement et de déploiement confié à une équipe et à la phase finale une autre équipe gérée la sécurité. Cela n'était pas génant à une époque car les déploiement applicatifs ne se faisaient pas aussi régulièrement qu'aujourd'hui. Par exemple, où je travaille, nous faisons environ une cinquaine de déploiement par jour. Alors imaginons-nous des grandes entreprises qui travaillent selon cette culture : Google, Netflix. Le nombre de déploiement est énorme alors ne pas inclure de sécurité dedans serait une erreur. \\
+En effet dans le cadre de travail collaboratif du modèle DevOps, la sécurité est une responsabilité partagée, intégrée du début à la fin. Cette notion est si importante qu'elle a donné naissance à l'expression « DevSecOps » pour souligner la nécessité d'intégrer la sécurité aux projets DevOps. \\
+C'est donc dans cette démarche que l'on peut se poser la problèmatique suivante : En quoi le DevSecOps contribue t'il à améliorer l'infrastructure et son déploiement ? \\
+Cette vieille a donc une importance dans mon projet professionnel et mon quotidien. \\
+Nous verrons dans un premier la démarche méthodologique afin d'expliquer le procédé de l'élaboration de mon plan de veille, puis dans un second temps la présentation des résultats obtenues en trois axes : veille concurentielle, technique / technologique et commerciale.
 
-    \chapter{Conclusion}\label{ch:conclusion}
 
-    \chapter{Bibliographie}\label{ch:bibliographie}
+\chapter{Démarche méthodologique}
+
+Dans cette partie, nous verrons comment j'ai procédé à l'élaboration de mon plan de veille, puis des mots clefs que j'ai pu utiliser selon mon sujet du DevSecOps ainsi que le tableau des ressources immobilisées.
+
+\section{Élaboration du plan de veille}
+
+Dans cette section, nous allons voir en 5 points ce qui m'a permit de réaliser mon plan de veille.
+
+\subsection{Définir le périmètre}
+
+Mon sujet est venu naturellement pour répondre au besoin quotidien.
+Il a fallu que je définisses un périmètre afin d'être efficace et efficien. \\
+Le périmétre peut être dans les sujets cherchés ou dans les ressources abordés.
+Cela permet de ne pas perdre son temps sur internet en s'écartant du sujet et des recherches que l'on nous voulons faire.
+
+\subsection{Collecter}
+
+Pour collecter les informations de veille, j'ai utilisé un flux RSS.
+Un flux RSS permet de récupérer sous format xml une information de mise à jour d'un site internet. Cela permet donc de surveiller plusieurs sources internet de facon automatiser et d'un seul et même endroit, notre outil choisi de flux RSS. \\
+Pour moi, la mise en place de cet outil était pertinent. Car pour toute la veille des mise à jours des plusieurs micro logiciels dont on se sert dans l'entreprise, cela devient vite gronophage si l'information ne vient pas à nous.
+
+\subsection{Qualifier}
+
+Une fois que l'information est venue jusqu'à nous, il faut à présent la qualifié, cela signifie que nous devons la classer.
+Par exemple : \\
+- Si une nouvelle technologie arrive bientôt, nous voudrons surveiller son évolution pour la tester et pourquoi pas la mettre en place à l'avenir, \\
+- Si par contre c'est une information d'une nouvelle mise à jour qui corrige un problème de sécurité sur un logiciel il faudra rapidement le mettre en place. \\
+Cette étape me permet de voir si les flux RSS recues sont pertinents, car certains flux peuvent devenir obsoléte (le logiciel suivi n'est plus utilisé) ou plus pertinent, je me suis abonné à un site qui ne publie pas que des articles sur mon domaine. \\
+Dans certains cas, il faudra supprimer la source et d'entre cas réadapter le flux recu.
+
+\subsection{Organiser}
+
+Une fois l'information qualifié, il faudra l'organiser, ce travail peut également se faire en configurant son flux dans des catégories. Mais si un site est plus général on pourra le faire après avoir fait la qualification.
+
+\subsection{Partager et utiliser}
+
+J'ai choisi pour faire ma veille un outil de flux RSS que l'on peut soi-même héberger.
+On peut donc créer plusieurs utilisateurs qui interviendront sur la veille, mettre des catégories communes. \\
+L'accès est fait grâce à une page internet, où l'on doit ensuite rentrer son nom d'utilisateur et son mot de passe.
+
+\section{Listes des mots clés}
+
+\newpage
+
+\begin{landscape}
+
+\section{Tableau des ressources immobilisées}
+
+Expliquer que je balance tout dans mon outil de flux RSS avec des multiples ressources, je presente que les principales.
+
+\begin{tabular}{|l|c|c|c|c|c|c|}
+\hline
+\rowcolor{gray!30} Nom de la source / d'outil & Type & Lien & Auteur & Fréquence de la veille & Mots Clés & Provenance \\
+\hline
+GitHub Notifications release & technique & Privé & Multiple & tous les jours & & Flux RSS \\
+CVE (faille de sécurité) & technique & https://cve.report/ & CVE report & tous les jours & & Flux RSS \\
+Twitter Search & concurentiel & https://twitter.com & Multiple & tous les jours & DevOps, DevSecOps & Réseau social \\
+\hline
+\end{tabular}
+
+\end{landscape}
+
+\chapter{Corps du dossier}
+
+\chapter{Conclusion}
+
+
+\chapter{Bibliographie}
 
 \end{document}
